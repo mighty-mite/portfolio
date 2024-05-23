@@ -1,0 +1,28 @@
+.about {
+  color: $text;
+  padding: 80px 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.about__heading {
+  display: none;
+}
+
+.about__text {
+  margin-top: 80px;
+  line-height: 30px;
+}
+
+.about__link {
+  color: $secondary;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

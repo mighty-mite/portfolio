@@ -1,0 +1,58 @@
+.selftype {
+  font-size: 52px;
+  color: $secondary;
+  font-family: Monaco;
+
+  &::before {
+    content: ">\A0";
+  }
+}
+
+.selftype__cursor {
+  display: inline-block;
+  height: 50px;
+  width: 15px;
+  background-color: $secondary;
+
+  animation-name: shimmer;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+
+  margin-left: -29px;
+  margin-bottom: -2px;
+}
+
+@keyframes shimmer {
+  50% {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 1253px) {
+  .selftype {
+    font-size: 40px;
+  }
+
+  .selftype__cursor {
+    height: 50px;
+    width: 15px;
+
+    margin-left: -23px;
+    margin-bottom: -2px;
+  }
+}
+
+@media (max-width: 970px) {
+  .selftype {
+    font-size: 22px;
+  }
+
+  .selftype__cursor {
+    height: 22px;
+    width: 10px;
+
+    margin-left: -13px;
+    margin-bottom: -2px;
+  }
+}

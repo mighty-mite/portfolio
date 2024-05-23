@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Aiur's Portfolio</title>
+  </head>
+  <body>
+    <header class="header container">
+      <img
+        class="header__img"
+        src="img/ayur.jpg"
+        width="150"
+        alt="ayur's picture" />
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__link" href="#projects">Projects</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="about container">
+        <h2 class="about__heading">About</h2>
+        <div class="selftype">
+          <span class="selftype__container"></span>
+          <span class="selftype__cursor"></span>
+        </div>
+        <div class="about__text">
+          Hello! I'm a passionate Frontend Developer dedicated to creating
+          visually stunning and highly functional web applications. Check out
+          <a class="about__link" href="#projects">my projects</a> below.
+        </div>
+      </section>
+      <div id="about" class="terminal container">
+        <div class="terminal__header">
+          <div class="terminal__dot terminal__dot-red"></div>
+          <div class="terminal__dot terminal__dot-orange"></div>
+          <div class="terminal__dot terminal__dot-green"></div>
+        </div>
+        <ul class="terminal__window">
+          <li class="terminal__item">
+            <p class="terminal__command">Ayur.currentLocation</p>
+            <p class="terminal__output">"Moscow, Russia"</p>
+          </li>
+          <li class="terminal__item">
+            <p class="terminal__command">Ayur.contactInfo</p>
+            <p class="terminal__output">
+              ["<a
+                target="_blank"
+                class="terminal__link"
+                href="mailto:tushinov.ayur@gmail.com"
+                >tushinov.ayur@gmail.com</a
+              >", "<a
+                target="_blank"
+                class="terminal__link"
+                href="https://t.me/Ayur138"
+                >telegram</a
+              >", "<a
+                target="_blank"
+                class="terminal__link"
+                href="https://github.com/mighty-mite"
+                >github</a
+              >", "<a
+                target="_blank"
+                class="terminal__link"
+                href="https://www.linkedin.com/in/aiur-t-09779019b/"
+                >linkedin</a
+              >"]
+            </p>
+          </li>
+          <li class="terminal__item">
+            <p class="terminal__command">Ayur.education</p>
+            <p class="terminal__output">
+              ["<a download class="terminal__link" href="pdf/certificate.pdf"
+                >FrontEnd Development - Rolling Scope School, 2023</a
+              >", "Electrical Engineering - Moscow State Mining University,
+              2008" ]
+            </p>
+          </li>
+          <li class="terminal__item">
+            <p class="terminal__command">Ayur.skills</p>
+            <p class="terminal__output">
+              ["HTML", "CSS", "SASS", "JavaScript", "TypeScript", "React",
+              "Redux", "Figma", "Git" ]
+            </p>
+          </li>
+          <li class="terminal__item">
+            <p class="terminal__command">Ayur.languages</p>
+            <p class="terminal__output">
+              ["Russian (native)", "English (advanced)", "Mongolian
+              (pre-intermediate)"]
+            </p>
+          </li>
+          <li class="terminal__item">
+            <p class="terminal__command">Ayur.resume</p>
+            <p class="terminal__output">
+              <a
+                class="terminal__link"
+                href="pdf/resume_ayur_tushinov-frontend-dev.pdf"
+                download
+                >resume.pdf</a
+              >
+            </p>
+          </li>
+          <li class="terminal__item">
+            <p class="terminal__command terminal__command-empty">
+              <span class="terminal__cursor"></span>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <section id="projects" class="projects container">
+        <h2 class="projects__heading">Projects</h2>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <img
+              class="projects__img"
+              src="img/online-shop.png"
+              width="300"
+              alt="online shop screenshot" />
+            <div class="projects__item-info">
+              <h3 class="projects__item-heading">Online Shop</h3>
+              <p class="projects__item-description">
+                My first React-Redux single page application
+              </p>
+              <ul class="technologies">
+                <li class="technologies__item">HTML</li>
+                <li class="technologies__item">SASS</li>
+                <li class="technologies__item">TypeScript</li>
+                <li class="technologies__item">React</li>
+                <li class="technologies__item">Redux</li>
+                <li class="technologies__item">ES6</li>
+              </ul>
+              <div class="projects__links">
+                <a
+                  class="projects__link"
+                  target="_blank"
+                  href="https://earnest-klepon-680289.netlify.app/"
+                  >Live Demo<img
+                    class="projects__link-demo"
+                    src="img/link.svg"
+                    width="16"
+                    alt="live demo icon"
+                /></a>
+                <a
+                  target="_blank"
+                  class="projects__link secondary"
+                  href="https://github.com/mighty-mite/online-shop">
+                  <img
+                    class="projects__link-github"
+                    src="img/github.svg"
+                    width="15"
+                    alt="github icon" />
+                  View Source
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img
+              class="projects__img"
+              src="img/shelter.png"
+              width="300"
+              alt="shelter screenshot" />
+            <div class="projects__item-info">
+              <h3 class="projects__item-heading">Shelter</h3>
+              <p class="projects__item-description">Pet adoption website</p>
+              <ul class="technologies">
+                <li class="technologies__item">HTML</li>
+                <li class="technologies__item">SASS</li>
+                <li class="technologies__item">JavaScript</li>
+                <li class="technologies__item">ES6</li>
+              </ul>
+              <div class="projects__links">
+                <a
+                  class="projects__link"
+                  target="_blank"
+                  href="https://mighty-mite.github.io/shelter/pages/main/"
+                  >Live Demo<img
+                    class="projects__link-demo"
+                    src="img/link.svg"
+                    width="16"
+                    alt="live demo icon"
+                /></a>
+                <a
+                  target="_blank"
+                  class="projects__link secondary"
+                  href="https://github.com/mighty-mite/shelter">
+                  <img
+                    class="projects__link-github"
+                    src="img/github.svg"
+                    width="15"
+                    alt="github icon" />
+                  View Source
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img
+              class="projects__img"
+              src="img/museum.png"
+              width="300"
+              alt="museum screenshot" />
+            <div class="projects__item-info">
+              <h3 class="projects__item-heading">Museum</h3>
+              <p class="projects__item-description">Louvre museum website</p>
+              <ul class="technologies">
+                <li class="technologies__item">HTML</li>
+                <li class="technologies__item">SASS</li>
+                <li class="technologies__item">JavaScript</li>
+                <li class="technologies__item">ES6</li>
+              </ul>
+              <div class="projects__links">
+                <a
+                  class="projects__link"
+                  target="_blank"
+                  href="https://mighty-mite.github.io/museum/"
+                  >Live Demo<img
+                    class="projects__link-demo"
+                    src="img/link.svg"
+                    width="16"
+                    alt="live demo icon"
+                /></a>
+                <a
+                  target="_blank"
+                  class="projects__link secondary"
+                  href="https://github.com/mighty-mite/museum">
+                  <img
+                    class="projects__link-github"
+                    src="img/github.svg"
+                    width="15"
+                    alt="github icon" />
+                  View Source
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img
+              class="projects__img"
+              src="img/songbird.png"
+              width="300"
+              alt="songbird screenshot" />
+            <div class="projects__item-info">
+              <h3 class="projects__item-heading">Songbird</h3>
+              <p class="projects__item-description">
+                Quiz Game (russian version)
+              </p>
+              <ul class="technologies">
+                <li class="technologies__item">HTML</li>
+                <li class="technologies__item">CSS</li>
+                <li class="technologies__item">JavaScript</li>
+                <li class="technologies__item">ES6</li>
+              </ul>
+              <div class="projects__links">
+                <a
+                  class="projects__link"
+                  target="_blank"
+                  href="https://mighty-mite.github.io/songbird/"
+                  >Live Demo<img
+                    class="projects__link-demo"
+                    src="img/link.svg"
+                    width="16"
+                    alt="live demo icon"
+                /></a>
+                <a
+                  target="_blank"
+                  class="projects__link secondary"
+                  href="https://github.com/mighty-mite/songbird">
+                  <img
+                    class="projects__link-github"
+                    src="img/github.svg"
+                    width="15"
+                    alt="github icon" />
+                  View Source
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="contacts" class="contacts container">
+        <h2 class="contacts__heading">Contacts</h2>
+        <ul class="contacts__links">
+          <li class="contacts__item">
+            <a href="mailto:tushinov.ayur@gmail.com" class="contacts__link"
+              >tushinov.ayur@gmail.com</a
+            >
+          </li>
+          <li class="contacts__item">
+            <a
+              target="_blank"
+              href="https://t.me/Ayur138"
+              class="contacts__link"
+              >Telegram</a
+            >
+          </li>
+          <li class="contacts__item last">
+            <a
+              target="_blank"
+              href="https://github.com/mighty-mite"
+              class="contacts__link"
+              >Github</a
+            >
+          </li>
+        </ul>
+      </section>
+      <footer>Made by Ayur Tushinov 2024</footer>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
