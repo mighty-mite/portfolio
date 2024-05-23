@@ -12,7 +12,7 @@ html {
   font-family: "Monaco";
   font-style: normal;
   font-weight: 400;
-  src: local("Monaco"), url("/fonts/Monaco.woff") format("woff");
+  src: local("Monaco"), url("../fonts/Monaco.woff") format("woff");
 }
 
 body {
